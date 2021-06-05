@@ -1,0 +1,8 @@
+.MainFooterContainer {
+	background-color: #4a4848;
+	padding: 2%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
