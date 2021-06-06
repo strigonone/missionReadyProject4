@@ -1,8 +1,22 @@
 .MainFooterContainer {
 	background-color: #4a4848;
-	padding: 2%;
+	padding: 1%;
 	color: white;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
+	/* align-items: center; */
+}
+
+.FooterLogos {
+	font-size: 2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	/* width: 40%; */
+}
+
+.FooterContent {
+	text-align: center;
+	width: 50%;
 }
