@@ -1,6 +1,6 @@
 import React from "react";
 import MainFooter from "../MainFooter/MainFooter";
-import MainFooterv2 from "../MainFooterv2/MainFooterv2";
+import MainFooterv2 from "../MainFooter/MainFooterv2";
 import TopNav from "../TopNav/TopNav";
 import HPSection1 from "./HPSection1/HPSection1";
 import HPSection2 from "./HPSection2/HPSection2";

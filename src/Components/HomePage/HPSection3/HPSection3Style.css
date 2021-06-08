@@ -17,10 +17,3 @@
 	cursor: pointer;
 	background-color: #e8e7e7;
 }
-
-.HPSec3repo {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	width: 20%;
-}

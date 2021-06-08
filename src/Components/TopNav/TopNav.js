@@ -3,19 +3,21 @@ import "./TopNav.css";
 import * as AiIcons from "react-icons/ai";
 import * as BiIcons from "react-icons/bi";
 import TLogo from "../../Images/turnersTLogo.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const TopNav = () => {
 	return (
 		<div className="TopNavMainContainer">
-			<Link>
+			<Link to="/">
 				<img src={TLogo} alt="Logo" />
 			</Link>
 			<div className="TopNavigationContainer">
 				<div className="TopNavigation">
 					<li>Find a car</li>
 					<li>Sell Car</li>
-					<li>Car Insurance</li>
+					<NavLink to="/carinsurance" activeClassName="activeTab">
+						Car Insurance
+					</NavLink>
 					<li>Finance</li>
 					<li>Auctions & Events</li>
 				</div>
