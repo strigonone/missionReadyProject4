@@ -60,17 +60,29 @@ const HereIsYourQuote = () => {
 					</div>
 				</div>
 
+				<h1>OPTIONAL ADD-ONS</h1>
+
 				<div className="QuoteTandC">
-					<h1>Adding an additional driver to your policy</h1>
+					<h1>Terms and Agreement</h1>
 					<p>
-						You may think, because you have fully comprehensive car insurance
-						you're covered to drive someone else's car, or because a friend has
-						car insurance of their own they can drive your car. Well, in the
-						interest of avoiding points on your driving licence or a driving
-						ban, the only thing you should ever assume about car insurance is
-						that every policy is different and all insurers offer different
-						types of cover. Age, car type and occupation can all affect whether
-						you're covered to drive another car.
+						The following terminology applies to these Terms and Conditions,
+						Privacy Statement and Disclaimer Notice and any or all Agreements:
+						"Client", “You” and “Your” refers to you, the person accessing this
+						website and accepting the Company’s terms and conditions. "The
+						Company", “Ourselves”, “We” and "Us", refers to our Company.
+						“Party”, “Parties”, or “Us”, refers to both the Client and
+						ourselves, or either the Client or ourselves. All terms refer to the
+						offer, acceptance and consideration of payment necessary to
+						undertake the process of our assistance to the Client in the most
+						appropriate manner, whether by formal meetings of a fixed duration,
+						or any other means, for the express purpose of meeting the Client’s
+						needs in respect of provision of the Company’s stated
+						services/products, in accordance with and subject to, prevailing
+						English Law. Any use of the above terminology or other words in the
+						singular, plural, capitalisation and/or he/she or they, are taken as
+						interchangeable and therefore as referring to same.
+						<h5>Please tick the box if you accept the terms and agreement*</h5>
+						<input type="radio" id="Yes" name="business" value="Yes" />
 					</p>
 				</div>
 
