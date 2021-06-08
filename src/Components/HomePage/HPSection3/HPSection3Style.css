@@ -1,0 +1,19 @@
+.HPSec3MainContainer {
+	display: flex;
+	flex-direction: column;
+	/* margin: 2%; */
+	justify-content: space-around;
+	align-items: center;
+}
+
+.HPSec3Content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	/* flex-wrap: wrap; */
+	/* text-align: center; */
+	font-size: 1.5em;
+	cursor: pointer;
+	background-color: #e8e7e7;
+}

@@ -1,0 +1,52 @@
+.HPSec1MainContainer {
+	background-image: url("../../../Images/banner.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	background-size: cover;
+	padding: 2%;
+	max-height: 410px;
+	/* color: #0076be; */
+	box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+}
+
+.HPSec1Content {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+	width: 40%;
+	/* height: 100%; */
+	/* margin-left: 6%; */
+	background-color: rgba(255, 255, 255, 65%);
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+	/* border-radius: 15px; */
+}
+
+.HPSec1SideBySide {
+	display: flex;
+	flex-direction: row;
+	margin: 1%;
+	width: 60%;
+	align-self: center;
+}
+
+.HPSec1Content img {
+	max-height: 80px;
+	max-width: 80px;
+}
+
+.HPSec1Content a {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.HPSec1Content a:hover {
+	color: #bd1a45;
+	transition: 0.4s;
+}
+
+.QuickPointContainer {
+	font-size: 1.5em;
+}
