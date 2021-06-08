@@ -8,6 +8,7 @@ import "../../ReusableBlueButton/ReusableBlueButton.css";
 import { Link } from "react-router-dom";
 import * as RiIcons from "react-icons/ri";
 import * as FaIcons from "react-icons/fa";
+import * as CgIcons from "react-icons/cg";
 import { useHistory } from "react-router-dom";
 import QuotePropV2 from "./QuotePropV2";
 import QuickPointProp from "../../HomePage/HPSection1/QuickPointProp";
@@ -62,6 +63,58 @@ const HereIsYourQuote = () => {
 
 				<h1>OPTIONAL ADD-ONS</h1>
 
+				<div className="BoxContainer">
+					<div className="BoxBorderContainer">
+						<div className="BoxBorderContent">
+							<h1>
+								<CgIcons.CgScreenShot />
+								Windscreen and glass claims
+							</h1>
+							<h5>$XX.XX per year</h5>
+							<p>Claims for broken windscreen or window glass is excess free</p>
+							<input
+								type="radio"
+								id="selection"
+								name="selection"
+								value="selection"
+							/>
+						</div>
+					</div>
+					<div className="BoxBorderContainer">
+						<div className="BoxBorderContent">
+							<h1>
+								<FaIcons.FaCar />
+								Car Rental Cover
+							</h1>
+							<h5>$XX.XX per year</h5>
+							<p>
+								Car rental is set up for you while your car is being repaired or
+								stolen
+							</p>
+							<input
+								type="radio"
+								id="selection"
+								name="selection"
+								value="selection"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<label className="AboutYourCarSideContent">
+					<h3>Renewal Reminder</h3>
+
+					<input type="radio" id="email" name="reminder" value="email" />
+					<label>Email</label>
+					<input
+						type="radio"
+						id="textMessage"
+						name="reminder"
+						value="textMessage"
+					/>
+					<label>Text Message</label>
+				</label>
+
 				<div className="QuoteTandC">
 					<h1>Terms and Agreement</h1>
 					<p>
@@ -95,7 +148,7 @@ const HereIsYourQuote = () => {
 					/>
 
 					{/* <button className="BlueBtnStyle"> */}
-					<Link to="/quote/hereisyourquote" className="BlueBtnStyle">
+					<Link to="/quote/payment" className="BlueBtnStyle">
 						Continue
 					</Link>
 					{/* </button> */}

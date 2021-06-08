@@ -5,6 +5,8 @@ import HomePage from "./Components/HomePage/HomePage";
 import AboutYourCar from "./Components/Quotation/AboutYourCar/AboutYourCar";
 import AboutYou from "./Components/Quotation/AboutYou/AboutYou.js";
 import HereIsYourQuote from "./Components/Quotation/HereIsYourQuote/HereIsYourQuote";
+import Payment from "./Components/Quotation/PaymentMethod/Payment";
+import PaymentSuccess from "./Components/Quotation/PaymentMethod/PaymentSuccess";
 
 const Router = () => {
 	return (
@@ -14,6 +16,8 @@ const Router = () => {
 			<Route exact path="/quote/aboutyourcar" component={AboutYourCar} />
 			<Route exact path="/quote/aboutyou" component={AboutYou} />
 			<Route exact path="/quote/hereisyourquote" component={HereIsYourQuote} />
+			<Route exact path="/quote/payment" component={Payment} />
+			<Route exact path="/quote/paymentsuccess" component={PaymentSuccess} />
 		</Switch>
 	);
 };

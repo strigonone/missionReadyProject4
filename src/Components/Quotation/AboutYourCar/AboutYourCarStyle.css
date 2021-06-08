@@ -3,9 +3,20 @@
 	flex-direction: column;
 	font-weight: bold;
 	margin: 3%;
-	justify-content: space-around;
-	flex-wrap: wrap;
+	justify-content: space-between;
+	/* flex-wrap: wrap; */
 	/* height: 30%; */
+}
+
+.AboutYourCarContent a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.AboutYourCarContent a:hover {
+	color: #bd1a45;
+	transition: 0.4s;
 }
 
 input,
@@ -32,6 +43,17 @@ input[type="radio"] {
 	width: 60%;
 	justify-content: space-between;
 	margin: auto;
+}
+
+.AboutYourCarSideContent a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.AboutYourCarSideContent a:hover {
+	color: #bd1a45;
+	transition: 0.4s;
 }
 
 .AboutYourCarBottomRightButtons {
@@ -88,6 +110,7 @@ input[type="radio"] {
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 .QuotePropContainerBigMain {
@@ -104,4 +127,37 @@ input[type="radio"] {
 	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 	/* font-weight: bold; */
 	margin: auto;
+}
+
+.BoxBorderContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 8px;
+	text-align: center;
+}
+
+.BoxBorderContent p {
+	font-size: 0.8em;
+	color: #716f6f;
+	font-weight: normal;
+}
+
+.BoxBorderContainer {
+	display: flex;
+	margin: auto;
+	border: solid 2px black;
+	/* width: 860px;
+	height: 140px; */
+}
+
+.BoxContainer {
+	display: flex;
+	margin: auto;
+	flex-direction: row;
+}
+
+.AboutYourCarSideContent .specialCaseLink {
+	color: black;
+	/* font-size: 3em; */
 }
